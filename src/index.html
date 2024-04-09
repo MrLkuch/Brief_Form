@@ -44,8 +44,8 @@
         </div>
         <div class="">
             <label for="occupation">Select your occupation: </label>
-            <select id="occupation" name="occupation">
-                <option value="none" selected>none</option>
+            <select id="occupation" name="occupation" required>
+                <option value="" selected>none</option>
                 <option value="job1">Job 1</option>
                 <option value="job2">Job 2</option>
                 <option value="job3">Job 3</option>
@@ -53,7 +53,8 @@
         </div>
         <div class="">
             <label for="nationality">Select your nationality: </label>
-            <select id="nationality" name="nationality">
+            <select id="nationality" name="nationality" required>
+                <option value="" hidden >none</option>
                 <option value="French" selected>French</option>
                 <option value="English">English</option>
                 <option value="German">German</option>
