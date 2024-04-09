@@ -10,7 +10,7 @@
 
 ## Project Description
 
-This repo hold the content for the brief "Create your first HTML form.
+This repo hold the content for the brief "Create your first HTML form".
 
 </div>
 
